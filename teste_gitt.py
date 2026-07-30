@@ -5,4 +5,4 @@ from sqlalchemy import create_engine
 
 
 db = pd.read_excel(r'D:\Nivelamento\Planilhas.xlsx', sheet_name='Sheet1')
-print(db)
+print(db.sheet_names)
