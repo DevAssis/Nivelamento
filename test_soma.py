@@ -1,12 +1,7 @@
-print("Hello, World!")
-print("vamos aprender a usar o git")
-
-a=2
-b=3
-def soma(a, b):
-    return a + b
+from soma import soma
 
 
+def test_soma_de_dois_numeros():
+    resultado = soma(2, 3)
 
-resultado = soma(a, b)
-print("O resultado da soma vai ser esse:", resultado)
+    assert resultado == 5
