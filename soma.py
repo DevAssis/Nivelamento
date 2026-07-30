@@ -2,7 +2,7 @@ print("Hello, World!")
 print("vamos aprender a usar o git")
 
 
-def test_soma(a, b):
+def soma(a, b):
     return a + b
 
 if __name__ == "__main__":
